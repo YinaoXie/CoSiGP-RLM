@@ -1,0 +1,13 @@
+mode: "embedding"
+from_json: "CoSiGP_RLM/data/test_processed_rec_inspired_desc_replaced.jsonl"
+db_json_item: "CoSiGP_RLM/data/movie_inspired.json"
+embeddings_path_item: "CoSiGP_RLM/save/inspired/inspired_item_embeddings.pt"
+to_json_item: "CoSiGP_RLM/save/inspired/test_processed_cand.jsonl"
+base_model_path: "GritLM//GritLM-7B"
+target_model_path: "CoSiGP_RLM/model/RLM-qlora"
+db_json_conv: "CoSiGP_RLM/data/inspired_conv_db.jsonl"
+embeddings_path_conv: "CoSiGP_RLM/save/inspired/inspired_conv_embeddings.pt"
+to_json_conv: "CoSiGP_RLM/save/inspired/test_processed_cand_rag.jsonl"
+
+
+

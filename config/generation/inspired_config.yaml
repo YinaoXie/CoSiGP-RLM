@@ -1,0 +1,4 @@
+mode: "generation"
+base_model_path: "GritLM//GritLM-7B"
+target_model_path: "CoSiGP_RLM/model/RLM-qlora"
+from_json: "CoSiGP_RLM/save/inspired/test_processed_all_copy2.jsonl"
