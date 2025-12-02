@@ -1,0 +1,16 @@
+huggingface-hub==0.26.5
+torch==2.1.1
+safetensors==0.4.5
+numpy==1.25.0
+tqdm==4.65.0
+transformers==4.45.2
+accelerate==0.29.1
+gritlm==1.0.0
+jsonargparse==4.27.7
+PyYAML==6.0.2
+peft==0.10.0
+tokenizers==0.20.3
+datasets==2.18.0
+editdistance==0.8.1
+deepspeed==0.16.4
+
